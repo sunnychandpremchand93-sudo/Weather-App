@@ -4,24 +4,6 @@ A browser-based weather application built with HTML, CSS, and vanilla JavaScript
 
 **Live demo:** [weather-app-shemmee.netlify.app](https://weather-app-shemmee.netlify.app)
 
-## Project location
-
-All source code is in the `Weather-App/` folder:
-
-```
-weather app/
-└── Weather-App/
-    ├── index.html          # Main page and UI structure
-    ├── package.json        # Parcel dev server and build scripts
-    ├── src/
-    │   ├── app.js          # Weather logic, APIs, carousel
-    │   └── style.css       # Layout and styling
-    ├── images/             # Icons, background, activity illustrations
-    ├── .github/workflows/  # GitHub Pages deployment
-    ├── LICENSE
-    └── README.md           # Upstream project readme
-```
-
 ## Features
 
 - **City search** — Type a city name and press Enter to load weather data.
@@ -79,22 +61,3 @@ npm start
 3. **Units:** Use **Convert to Fahrenheit** / **Convert to Celsius** under the main temperature.
 4. **Activities:** Use the chevron buttons or wait for the carousel to auto-rotate.
 
-## Deployment
-
-- **Netlify:** Referenced in the app footer as the hosted environment for the public demo.
-- **GitHub Pages:** `.github/workflows/static.yml` deploys the repository to GitHub Pages on pushes to `main`.
-
-## Credits
-
-- Coded by [Chaimae Lamirine](https://www.shecodes.io/graduates/73033-chaimae-lamirine)
-- Open source: [github.com/shemmee/Weather-App](https://github.com/shemmee/Weather-App)
-- Illustrations: [Icons8 — 3D Casual Life](https://icons8.com/illustrations/style--3d-casual-life)
-- SheCodes Plus workshop project
-
-## License
-
-The repository includes a **GNU GPL v3** license file (`Weather-App/LICENSE`). See that file for full terms.
-
----
-
-*Local copy path: `c:\Users\manoj\Desktop\plm\weather app`*
