@@ -1,9 +1,6 @@
 # Weather Web App
 
-A browser-based weather application built with HTML, CSS, and vanilla JavaScript. It shows current conditions, hourly forecasts, a 5-day forecast, and outdoor activity suggestions. The project was developed as a SheCodes Plus final project.
-
-**Live demo:** [weather-app-shemmee.netlify.app](https://weather-app-shemmee.netlify.app)
-
+A browser-based weather application built with HTML, CSS, and vanilla JavaScript. It shows current conditions, hourly forecasts, a 5-day forecast, and outdoor activity suggestions.
 ## Features
 
 - **City search** — Type a city name and press Enter to load weather data.
@@ -31,10 +28,7 @@ A browser-based weather application built with HTML, CSS, and vanilla JavaScript
 
 | API | Purpose |
 |-----|---------|
-| [SheCodes Weather API](https://www.shecodes.io/learn/apis/weather) | Current weather, 5-day forecast, city search |
 | [OpenWeatherMap API](https://openweathermap.org/) | Hourly forecast data (`/data/2.5/forecast`) |
-
-API keys are configured in `Weather-App/src/app.js`. For your own deployment, replace them with your keys and avoid committing secrets to public repos.
 
 ## Getting started
 
